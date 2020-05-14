@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55805782321d63a44bd157e004959862, type: 3}
+  m_Name: Customer_3
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3448925185200052479, guid: 0a03dce0b85e18644918437bd4d15f38, type: 3}
+  willPay: 45
+  tipModifier: 0.15
+  refundThreshold: 0.7
+  killThreshold: 20
+  isAlive: 1

@@ -29,15 +29,6 @@ public class CameraController : MonoBehaviour
     }
     private void LateUpdate()
     {
-        if (Input.GetMouseButtonDown(1))
-        {
-            cameraDisable = false;
-        }
-
-        if(Input.GetMouseButtonUp(1))
-        {
-            cameraDisable = true;
-        }
 
         if (!cameraDisable)
         {
@@ -47,7 +38,7 @@ public class CameraController : MonoBehaviour
                 localRotation.y -= Input.GetAxis("Mouse Y") * mouseSensitivity;
 
                 //clamp the y rotatiton
-                localRotation.y = Mathf.Clamp(localRotation.y, -20f, 90f);
+                localRotation.y = Mathf.Clamp(localRotation.y, -45f, 90f);
                
             }
         }
